@@ -1,0 +1,95 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+  }
+  
+  .square {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+  }
+  
+  .square:hover {
+    background-color: white;
+  }
+  
+  #colorOptions {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .Black { 
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+
+  .Rainbow {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #ff0000;
+    background-image: linear-gradient(to bottom right, #ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff);
+    border: none;
+    border-radius: 5px;
+    color: black;
+  }
+
+  .Eraser {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    color: black;
+
+  }
+
+  body {
+    background-color: wheat;
+    text-align: center;
+  }
+
+  #startButton {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 40px;
+    text-align: center;
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 300px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    font-size: 60px ;
+    position: relative;
+
+  }
+
+  #colorOptions {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
